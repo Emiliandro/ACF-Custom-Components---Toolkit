@@ -28,6 +28,35 @@
     height: 40vh;
 }
 
+/* MARGENS */
+
+.margem.hd{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.margem.md{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.margem.ld{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.margem.lld{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+@media (max-width: 500px) {
+    .margem.hd,
+    .margem.md,
+    .margem.ld,
+    .margem.lld{
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+}
+
 /* LARGURAS */
 .container.hd{
    max-width: 1660px; }
